@@ -1,0 +1,8 @@
+{{ View.Html.script(challengeAddress, {'type': 'text/javascript'}) }}
+
+<noscript>
+    {{ View.Html.tag('iframe', null, {'src': noScriptAddress, 'height': 300, 'width': 500, 'frameborder': 0}) }}
+    <br>
+    {{ View.Form.textarea('recaptcha_challenge_field', {'rows': 3, 'cols': 40}) }}
+    {{ View.Form.hidden('recaptcha_response_field', {'value': 'manual_challenge'}) }}
+</noscript>

@@ -1,0 +1,31 @@
+{
+    "name": "atkrad/recaptcha-plugin",
+    "description": "CakePHP reCaptcha plugin",
+    "homepage": "https://github.com/atkrad/recaptcha-plugin",
+    "type": "cakephp-plugin",
+    "keywords": ["CakePHP", "CakePHP 3.0", "reCaptcha"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammad Abdoli Rad",
+            "homepage": "https://github.com/atkrad"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/atkrad/recaptcha-plugin/issues",
+        "source": "https://github.com/atkrad/recaptcha-plugin"
+    },
+    "require": {
+        "php": ">=5.4.16",
+        "cakephp/cakephp": "3.0.*@dev",
+        "cakephp/plugin-installer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ReCaptcha\\": "src"
+        }
+    },
+    "extra": {
+        "installer-name": "ReCaptcha"
+    }
+}

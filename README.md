@@ -1,4 +1,4 @@
-recaptcha-plugin
+reCaptcha Plugin
 ================
 
-CakePHP 3.0 ReCaptcha Plugin
+CakePHP 3.0 reCaptcha Plugin
