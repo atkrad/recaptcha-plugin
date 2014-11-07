@@ -37,7 +37,7 @@ class ReCaptcha
      */
     public static function isValid($challengeField, $responseField, $extraParams = [])
     {
-        $privateKey = Configure::read('reCaptcha.privateKey');
+        $privateKey = Configure::read('ReCaptcha.privateKey');
         $remoteIp = env('REMOTE_ADDR');
 
         if ($privateKey == null || $privateKey == '') {
