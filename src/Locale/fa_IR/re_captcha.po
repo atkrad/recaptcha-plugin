@@ -1,0 +1,72 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-08-18 14:35+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Lib/ReCaptcha.php:47;188
+msgid "To use reCAPTCHA you must get an API key from {0}"
+msgstr ""
+
+#: Lib/ReCaptcha.php:51
+msgid "For security reasons, you must pass the remote ip to reCAPTCHA"
+msgstr ""
+
+#: Lib/ReCaptcha.php:123
+msgid "Success"
+msgstr ""
+
+#: Lib/ReCaptcha.php:124
+msgid "The CAPTCHA solution was incorrect."
+msgstr ""
+
+#: Lib/ReCaptcha.php:125
+msgid "The solution was received after the CAPTCHA timed out."
+msgstr ""
+
+#: Lib/ReCaptcha.php:130
+msgid "The challenge parameter of the verify script was incorrect."
+msgstr ""
+
+#: Lib/ReCaptcha.php:134
+msgid "We weren't able to verify the private key."
+msgstr ""
+
+#: Lib/ReCaptcha.php:138
+msgid "Unable to contact the reCAPTCHA verify server."
+msgstr ""
+
+#: Template/Element/bootstrap.ctp:13
+msgid "Incorrect please try again"
+msgstr ""
+
+#: Template/Element/bootstrap.ctp:37
+msgid "Get an audio CAPTCHA"
+msgstr ""
+
+#: Template/Element/bootstrap.ctp:43
+msgid "Get an image CAPTCHA"
+msgstr ""
+
+#: Template/Element/bootstrap.ctp:53
+msgid "Incorrect please try again."
+msgstr ""
+
+#: Template/Element/bootstrap.ctp:73;89
+msgid "Enter the words above"
+msgstr ""
+
+#: Template/Element/bootstrap.ctp:76;82
+msgid "Enter the numbers you hear"
+msgstr ""
+
